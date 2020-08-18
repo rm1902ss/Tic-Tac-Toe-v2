@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #EAF2EF;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  cursor: pointer;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  font-size: 45pt;
+  text-align: center;
+}
+
+#message {
+  font-size: 18pt;
+  margin-bottom: 10px;
+}
+
+#restart {
+  margin-top: 10px;
+  font-size 18pt;
+  text-decoration: none;
+  color: black;
+}
